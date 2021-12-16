@@ -29,15 +29,15 @@ youtube-dl -h
 一些常用的参数：
 
 youtube-dl --list-extractors  #查看支持网站列表
-youtube-dl -U  #程序升级
-youtube-dl --get-format URL #获取视频格式
-youtube-dl -F URL #获取所有格式（目前仅支持YouTube），例如：
 
- 
+youtube-dl -U  #程序升级
+
+youtube-dl --get-format URL #获取视频格式
+
+youtube-dl -F URL #获取所有格式（目前仅支持YouTube），例如：
 
 youtube-dl -F http://www.youtube.com/watch?v=n-BXNXvTvV4
  
-
 [youtube] Setting language
 
 [youtube] n-BXNXvTvV4: Downloading video webpage
