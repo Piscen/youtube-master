@@ -3,7 +3,9 @@
 
 ### 项目安装
 1.将需要下载的链接地址放在url.txt，每行一条
+
 2.运行 python youtube.py
+
 3.视频、封面默认保存在download目录下，可在代码中修改目录
 
 ### youtube-dl食用方法 https://github.com/ytdl-org/youtube-dl
