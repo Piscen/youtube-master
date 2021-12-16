@@ -34,10 +34,14 @@ youtube-dl -U  #程序升级
 
 youtube-dl --get-format URL #获取视频格式
 
-youtube-dl -F URL #获取所有格式（目前仅支持YouTube），例如：
+youtube-dl -F URL #获取所有格式（目前仅支持YouTube）
+
+例如：
 
 youtube-dl -F http://www.youtube.com/watch?v=n-BXNXvTvV4
- 
+
+结果：
+
 [youtube] Setting language
 
 [youtube] n-BXNXvTvV4: Downloading video webpage
@@ -94,7 +98,7 @@ Available formats:
 
 139     :       mp4     [48k] (DASH Audio)
 
-第一栏数字用来选择下载具体某个音视频格式
+结果第一栏数字用来选择下载具体某个音视频格式
 
 youtube-dl -f format URL #下载指定格式的视频，这里以下载1080p原画质量的视频格式为例:
 
