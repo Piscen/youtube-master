@@ -37,35 +37,63 @@ youtube-dl -F http://www.youtube.com/watch?v=n-BXNXvTvV4
  
 
 [youtube] Setting language
+
 [youtube] n-BXNXvTvV4: Downloading video webpage
+
 [youtube] n-BXNXvTvV4: Downloading video info webpage
+
 [youtube] n-BXNXvTvV4: Extracting video information
+
 Available formats:
+
 37      :       mp4     [1080x1920]
+
 46      :       webm    [1080x1920]
+
 22      :       mp4     [720x1280]
+
 45      :       webm    [720x1280]
+
 35      :       flv     [480x854]
+
 44      :       webm    [480x854]
+
 34      :       flv     [360x640]
+
 18      :       mp4     [360x640]
+
 43      :       webm    [360x640]
+
 5       :       flv     [240x400]
+
 36      :       3gp     [240x320]
+
 17      :       3gp     [144x176]
+
 137     :       mp4     [1080p] (DASH Video)
+
 136     :       mp4     [720p] (DASH Video)
+
 135     :       mp4     [480p] (DASH Video)
+
 134     :       mp4     [360p] (DASH Video)
+
 133     :       mp4     [240p] (DASH Video)
+
 160     :       mp4     [192p] (DASH Video)
+
 141     :       mp4     [256k] (DASH Audio)
+
 172     :       webm    [256k] (DASH Audio)
+
 140     :       mp4     [128k] (DASH Audio)
+
 171     :       webm    [128k] (DASH Audio)
+
 139     :       mp4     [48k] (DASH Audio)
 
 第一栏数字用来选择下载具体某个音视频格式
+
 youtube-dl -f format URL #下载指定格式的视频，这里以下载1080p原画质量的视频格式为例:
 
 youtube-dl -f 137 http://www.youtube.com/watch?v=n-BXNXvTvV4
