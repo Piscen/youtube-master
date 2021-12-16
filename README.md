@@ -1,4 +1,4 @@
-# 下载youtube高清视频(+字幕)和封面
+# 多线程下载youtube高清视频(+字幕)和封面
 ## 主要的库和工具youtube-dl ，ffmpeg(搭配使用，将音频和视频自动整合)
 
 ### 项目安装
@@ -7,6 +7,8 @@
 2.运行 python youtube.py
 
 3.视频、封面默认保存在download目录下，可在代码中修改目录
+
+4.默认支持3个视频同时下载，可修改参数 THREAD_POOSIZE
 
 ### youtube-dl食用方法 https://github.com/ytdl-org/youtube-dl
     
